@@ -3,7 +3,7 @@ name = "realtime-smm"
 version = "0.1.1"
 description = ""
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Landon Clark",email = "landonclark97@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.11,<3.15"
