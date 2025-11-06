@@ -28,17 +28,18 @@ Installation
 pip install realtime-smm
 ```
 
-To include the optional global optimiser support (Basin Hopping via `pytorch-minimize`):
+Optional basin-hopping pretraining relies on `pytorch-minimize`, which is not
+published on PyPI. Install it manually if you plan to use that feature:
 
 ```bash
-pip install realtime-smm[optional]
+pip install git+https://github.com/gngdb/pytorch-minimize.git
 ```
 
 Using Poetry:
 
 ```bash
-poetry install        # core dependencies
-poetry install -E optional  # include pytorch-minimize from git
+poetry install
+pip install git+https://github.com/gngdb/pytorch-minimize.git
 ```
 
 Quickstart
