@@ -17,15 +17,9 @@ dependencies = [
     "torch (>=2.9.0,<3.0.0)"
 ]
 
-[project.optional-dependencies]
-optional = ["pytorch-minimize @ git+https://github.com/gngdb/pytorch-minimize.git"]
-
 [tool.poetry]
 packages = [{include = "realtime_smm", from = "src"}]
 
-
-[tool.poetry.dependencies]
-pytorch-minimize = {git = "https://github.com/gngdb/pytorch-minimize.git", optional = true}
 
 [tool.poetry.group.test]
 optional = true
@@ -33,9 +27,6 @@ optional = true
 [tool.poetry.group.test.dependencies]
 matplotlib = "^3.10.6"
 
-
-[tool.poetry.extras]
-optional = ["pytorch-minimize"]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
