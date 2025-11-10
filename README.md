@@ -93,4 +93,4 @@ Examples
 
 License
 -------
-MIT. See `LICENSE` for details.
+Apache v2.0. See `LICENSE` for details.
